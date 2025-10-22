@@ -1,7 +1,8 @@
-jsoninfoTR = {
+{
+
     "titulo": "Teoria da Relatividade – Explicação com base na NASA",
     "introducao": "A Teoria da Relatividade, desenvolvida por Albert Einstein no início do século XX, transformou radicalmente nossa compreensão do tempo, do espaço e da gravidade. Essa teoria é dividida em duas partes principais: a Relatividade Restrita, formulada em 1905, e a Relatividade Geral, apresentada em 1915. Ambas foram confirmadas por diversos experimentos ao longo do tempo e são amplamente utilizadas em áreas como a astronomia, a física de partículas e as tecnologias espaciais, incluindo aquelas desenvolvidas por agências como a NASA.",
-
+    
     "relatividade_restrita":
     {
         "descricao": "A Relatividade restrita trata dos fenômenos físicos que ocorrem em sistemas que se movem a velocidades constantes, ou seja, em movimento retilíneo uniforme.",
@@ -10,8 +11,8 @@ jsoninfoTR = {
             "Dilatação do tempo: o tempo passa mais devagar para um objeto em movimento em relação a um observador em repouso.", 
             "Contração do comprimento: objetos em alta velocidade parecem encurtar na direção do movimento.",
             "Equivalência massa-energia: E = mc² demonstra que massa e energia são equivalentes."
-        ],
-        "aplicacoes": "Correções relativísticas são necessárias em sistemas de GPS, pois os satélites se movem rapidamente e estão fora do campo gravitacional da Terra, o que afeta a medição do tempo."
+            ],
+            "aplicacoes": "Correções relativísticas são necessárias em sistemas de GPS, pois os satélites se movem rapidamente e estão fora do campo gravitacional da Terra, o que afeta a medição do tempo."
     },
 
     "relatividade_geral": {
@@ -42,11 +43,11 @@ jsoninfoTR = {
     "exemplos": [
         {
             "legenda": "Deformação no tecido do espaço-tempo devido a presença de corpos massivos.",
-            "endereco": "./assets/images/exemplo-1.jpeg",
+            "endereco": "./assets/images/exemplo-1.jpeg"
         },
         {
             "legenda": "A dilatação do tempo demonstrado no filme Interestelar",
-            "endereco": "./assets/images/exemplo-2.jpeg",
+            "endereco": "./assets/images/exemplo-2.jpeg"
         }
     ],
     "contexto": "No ano de 1905, o físico Albert Einstein (1879-1955) publicou a teoria da relatividade restrita, em seu artigo intitulado “Sobre a eletrodinâmica dos corpos em movimento”, com base nos resultados obtidos pelo experimento Michelson-Morley e nas equações de transformação (conjunto de equações que fundamentam a relatividade), do físico Hendrik Lorentz (1853-1928). No ano de 1915, Einstein apresentou a teoria da relatividade geral à Academia Prussiana de Ciências, alterando as concepções que se tinha a respeito da gravidade. Ela foi comprovada em 1919 por meio de um experimento realizado enquanto ocorria um eclipse solar total em Sobral, no Ceará, localizado no Brasil, e na Ilha do Príncipe, localizada no Arquipélago de São Tomé e Príncipe. A autoria da teoria da relatividade é debatida até hoje, já que houve diversos cientistas que contribuíram indiretamente para o seu desenvolvimento.",
@@ -65,7 +66,7 @@ jsoninfoTR = {
     {
         "titulo": "Gravity Probe A — Wikipédia",
         "url": "https://en.wikipedia.org/wiki/Gravity_Probe_A?utm_source=chatgpt.com"
-    }],
+        }],
     "saiba_mais": [
         {
             "titulo": "A Relatividade Geral Explicada",
@@ -89,4 +90,5 @@ jsoninfoTR = {
         }
     ],
     "conclusao": "A Teoria da Relatividade não é apenas uma formulação teórica elegante, mas uma ferramenta essencial para a compreensão do universo e para aplicações práticas como sistemas de navegação. A NASA continua a aplicar, testar e divulgar os princípios relativísticos em sua exploração científica do cosmos, demonstrando a validade e importância contínua das ideias de Einstein."
-}
+
+    }
