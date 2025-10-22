@@ -214,31 +214,31 @@
                     console.log(data)
                     var api = data;
 
-                    adicionarSrc("img-y1", tabela.saiba_mais[0].thumb)
-                    adicionarSrc("img-y2", tabela.saiba_mais[1].thumb)
-                    adicionarSrc("img-y3", tabela.saiba_mais[2].thumb)
-                    adicionarSrc("img-ex1", tabela.exemplos[0].endereco)
-                    adicionarSrc("img-ex2", tabela.exemplos[1].endereco)
+                    adicionarSrc("img-y1", api.saiba_mais[0].thumb)
+                    adicionarSrc("img-y2", api.saiba_mais[1].thumb)
+                    adicionarSrc("img-y3", api.saiba_mais[2].thumb)
+                    adicionarSrc("img-ex1", api.exemplos[0].endereco)
+                    adicionarSrc("img-ex2", api.exemplos[1].endereco)
 
 
 
-                    adicionarTexto("txt-y1", tabela.saiba_mais[0].titulo)
-                    adicionarTexto("txt-y2", tabela.saiba_mais[1].titulo)
-                    adicionarTexto("txt-y3", tabela.saiba_mais[2].titulo)
+                    adicionarTexto("txt-y1", api.saiba_mais[0].titulo)
+                    adicionarTexto("txt-y2", api.saiba_mais[1].titulo)
+                    adicionarTexto("txt-y3", api.saiba_mais[2].titulo)
 
                     // restrita
-                    adicionarTexto("txtRestritaDescricao", tabela.relatividade_restrita.descricao)
-                    adicionarTexto("txtRestritaPrincipios", tabela.relatividade_restrita.principios)
-                    adicionarTexto("txtRestritaEfeitos", tabela.relatividade_restrita.efeitos)
-                    adicionarTexto("txtRestritaAplicacoes", tabela.relatividade_restrita.aplicacoes)
+                    adicionarTexto("txtRestritaDescricao", api.relatividade_restrita.descricao)
+                    adicionarTexto("txtRestritaPrincipios", api.relatividade_restrita.principios)
+                    adicionarTexto("txtRestritaEfeitos", api.relatividade_restrita.efeitos)
+                    adicionarTexto("txtRestritaAplicacoes", api.relatividade_restrita.aplicacoes)
 
                     // geral
-                    adicionarTexto("txtGeralDescricao", tabela.relatividade_geral.descricao)
-                    adicionarTexto("txtGeralConceito", tabela.relatividade_geral.conceito)
-                    adicionarTexto("txtGeralFenomeno", tabela.relatividade_geral.fenomeno)
+                    adicionarTexto("txtGeralDescricao", api.relatividade_geral.descricao)
+                    adicionarTexto("txtGeralConceito", api.relatividade_geral.conceito)
+                    adicionarTexto("txtGeralFenomeno", api.relatividade_geral.fenomeno)
 
                     //Teoria da Relatividade
-                    adicionarTexto('txtcontesto', tabela.contesto)
+                    adicionarTexto('txtcontesto', api.contexto)
                 })
 
                 .catch(erro => { console.log(erro) })
