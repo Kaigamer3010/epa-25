@@ -123,6 +123,7 @@ li {
     display: flex;
     flex-direction: column;
     width: 50%;
+    line-height: 200%;
 }
 
 .container .titulo {
@@ -209,10 +210,12 @@ h3 {
     padding-top: 1vw;
     margin-bottom: 7vh;
     text-align: center;
+    line-height: 1.5;
 }
 
 #contexto .texto {
     width: 50%;
+    line-height: 200%;
 }
 
 #contexto .container .titulo {

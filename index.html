@@ -76,8 +76,10 @@
             <div class="texto">
                 <h3 id="txtRestritaDescricao">TEXTO DO JSON </h3>
                 <h3 id="txtRestritaPrincipios">TEXTO DO JSON </h3>
-                <h3 id="txtRestritaEfeitos">TEXTO DO JSON </h3>
                 <h3 id="txtRestritaAplicacoes">TEXTO DO JSON </h3>
+                <h3 id="txtRestritaEfeitos1">TEXTO DO JSON </h3>
+                <h3 id="txtRestritaEfeitos2">TEXTO DO JSON </h3>
+                <h3 id="txtRestritaEfeitos3">TEXTO DO JSON </h3>
             </div>
         </div>
 
@@ -90,7 +92,10 @@
             <div class="texto">
                 <h3 id="txtGeralDescricao">TEXTO DO JSON </h3>
                 <h3 id="txtGeralConceito">TEXTO DO JSON </h3>
-                <h3 id="txtGeralFenomeno">TEXTO DO JSON </h3>
+                <h3 id="txtGeralFenomeno1">TEXTO DO JSON </h3>
+                <h3 id="txtGeralFenomeno2">TEXTO DO JSON </h3>
+                <h3 id="txtGeralFenomeno3">TEXTO DO JSON </h3>
+                <h3 id="txtGeralFenomeno4">TEXTO DO JSON </h3>
             </div>
         </div>
 
@@ -100,7 +105,9 @@
                 <h1 id="titulo2"> CONTEXTO </h1>
             </div>
 
-            <h3 id="txtcontexto">TEXTO DO JSON </h3>
+            <h3 id="txtcontexto1">TEXTO DO JSON </h3>
+            <h3 id="txtcontexto2">TEXTO DO JSON </h3>
+            <h3 id="txtcontexto3">TEXTO DO JSON </h3>
         </div>
 
         <div class="container" id="exemplos">
@@ -229,16 +236,23 @@
                     // restrita
                     adicionarTexto("txtRestritaDescricao", api.relatividade_restrita.descricao)
                     adicionarTexto("txtRestritaPrincipios", api.relatividade_restrita.principios)
-                    adicionarTexto("txtRestritaEfeitos", api.relatividade_restrita.efeitos)
                     adicionarTexto("txtRestritaAplicacoes", api.relatividade_restrita.aplicacoes)
+                    adicionarTexto("txtRestritaEfeitos1", api.relatividade_restrita.efeitos[0])
+                    adicionarTexto("txtRestritaEfeitos2", api.relatividade_restrita.efeitos[1])
+                    adicionarTexto("txtRestritaEfeitos3", api.relatividade_restrita.efeitos[2])
 
                     // geral
                     adicionarTexto("txtGeralDescricao", api.relatividade_geral.descricao)
                     adicionarTexto("txtGeralConceito", api.relatividade_geral.conceito)
-                    adicionarTexto("txtGeralFenomeno", api.relatividade_geral.fenomeno)
+                    adicionarTexto("txtGeralFenomeno1", api.relatividade_geral.fenomenos_previstos[0])
+                    adicionarTexto("txtGeralFenomeno2", api.relatividade_geral.fenomenos_previstos[1])
+                    adicionarTexto("txtGeralFenomeno3", api.relatividade_geral.fenomenos_previstos[2])
+                    adicionarTexto("txtGeralFenomeno4", api.relatividade_geral.fenomenos_previstos[3])
 
                     //Teoria da Relatividade
-                    adicionarTexto('txtcontexto', api.contexto)
+                    adicionarTexto('txtcontexto1', api.contexto[0])
+                    adicionarTexto('txtcontexto2', api.contexto[1])
+                    adicionarTexto('txtcontexto3', api.contexto[2])
 
                     //Legendas
                     adicionarTexto('legenda1', api.exemplos[0].legenda)
