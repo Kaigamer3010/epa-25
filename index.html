@@ -95,12 +95,12 @@
         </div>
 
         <div class="container" id="contexto">
-            <div class="titulo">
+            <div class="titulo" style="width: 50%;">
                 <h1 id="titulo1"> TEORIA DA RELATIVIDADE </h1>
                 <h1 id="titulo2"> CONTEXTO </h1>
             </div>
 
-            <h3 id="txtrestrita">TEXTO DO JSON </h3>
+            <h3 id="txtcontexto" style="width: 50%;">TEXTO DO JSON </h3>
         </div>
 
         <div class="container" id="exemplos">
@@ -112,7 +112,7 @@
                         <img src="" alt="" id="img-ex1">
                     </div>
                     <div class="bottom">
-                        <h5> legenda </h5>
+                        <h4 id="legenda1"> legenda </h4>
                     </div>
                 </div>
 
@@ -121,7 +121,7 @@
                         <img src="" alt="" id="img-ex2">
                     </div>
                     <div class="bottom">
-                        <h5> legenda </h5>
+                        <h4 id="legenda2"> legenda </h4>
                     </div>
                 </div>
             </div>
@@ -238,7 +238,11 @@
                     adicionarTexto("txtGeralFenomeno", api.relatividade_geral.fenomeno)
 
                     //Teoria da Relatividade
-                    adicionarTexto('txtcontesto', api.contexto)
+                    adicionarTexto('txtcontexto', api.contexto)
+
+                    //Legendas
+                    adicionarTexto('legenda1', api.exemplos[0].legenda)
+                    adicionarTexto('legenda2', api.exemplos[1].legenda)
                 })
 
                 .catch(erro => { console.log(erro) })

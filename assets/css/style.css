@@ -122,6 +122,7 @@ li {
 .texto {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .container .titulo {
@@ -201,10 +202,9 @@ h1 {
 }
 
 h3 {
-    padding-left: 6vw;
     padding-top: 1vw;
-    padding-right: 6vw;
     margin-bottom: 7vh;
+    text-align: center;
 }
 
 
