@@ -209,10 +209,22 @@
         function acessarAPI() {
             const url = "https://kaigamer3010.github.io/epa-25/assets/json.json"
             fetch(url)
-                .then(resp => resp.json()) 
+                .then(resp => resp.json())
                 .then(data => {
                     console.log(data)
                     var api = data;
+
+                    adicionarSrc("img-y1", api.saibamais[0].thumb)
+                    adicionarSrc("img-y2", api.saibamais[1].thumb)
+                    adicionarSrc("img-y3", api.saibamais[2].thumb)
+                    adicionarSrc("img-ex1", api.exemplos[0].endereco)
+                    adicionarSrc("img-ex2", api.exemplos[1].endereco)
+
+
+
+                    adicionarTexto("txt-y1", api.saiba_mais[0].titulo)
+                    adicionarTexto("txt-y2", api.saiba_mais[1].titulo)
+                    adicionarTexto("txt-y3", api.saiba_mais[2].titulo)
                 })
 
                 .catch(erro => { console.log(erro) })
@@ -235,19 +247,6 @@
             let elemento = document.getElementById(id)
             elemento.textContent = texto;
         }
-
-        adicionarSrc("img-y1", api.saibamais[0].thumb)
-        adicionarSrc("img-y2", api.saibamais[1].thumb)
-        adicionarSrc("img-y3", api.saibamais[2].thumb)
-        adicionarSrc("img-ex1", api.exemplos[0].endereco)
-        adicionarSrc("img-ex2", api.exemplos[1].endereco)
-
-
-
-        adicionarTexto("txt-y1", api.saiba_mais[0].titulo)
-        adicionarTexto("txt-y2", api.saiba_mais[1].titulo)
-        adicionarTexto("txt-y3", api.saiba_mais[2].titulo)
-
 
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
