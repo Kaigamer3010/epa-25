@@ -212,15 +212,13 @@
                 .then(resp => resp.json()) 
                 .then(data => {
                     console.log(data)
-                    return data;
+                    const api = data;
                 })
 
                 .catch(erro => { console.log(erro) })
 
                 .finally(() => { console.log('Requisição Finalizada') })
         }
-
-        const api = acessarAPI()
 
     </script>
     <script>
