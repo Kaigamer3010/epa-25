@@ -17,7 +17,7 @@ body {
     width: 90%;
     margin-top: 5vh;
     border-radius: 16px;
-    background-color: rgba(0, 0, 0, 0.674);
+    background-color: rgba(0, 0, 0, 0.432);
 }
 
 /* id do 'teoria da' do primeiro conteiner */
@@ -72,6 +72,7 @@ body {
     display: flex;
     align-items: start;
     padding-top: 0.7vh;
+    padding-right: 0;
 }
 
 .collapse {
@@ -206,9 +207,15 @@ h1 {
     margin-bottom: 5vh;
 }
 
-h3 {
+h5 {
     padding-top: 1vw;
-    margin-bottom: 7vh;
+    margin-bottom: 4vh;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h4 {
+    margin-bottom: 4vh;
     text-align: center;
     line-height: 1.5;
 }
