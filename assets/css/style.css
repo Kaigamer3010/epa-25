@@ -212,6 +212,7 @@ h5 {
     margin-bottom: 4vh;
     text-align: justify;
     line-height: 1.5;
+    font-family: Didot, serif;
 }
 
 h4 {
@@ -500,4 +501,5 @@ h4 {
         padding-right: 3vw;
         margin-bottom: 4vh;
     }
+
 }
