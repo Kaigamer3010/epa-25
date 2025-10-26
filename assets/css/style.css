@@ -310,7 +310,6 @@ h4 {
 }
 
 
-/* Para telas grandes (acima de 1200px) */
 @media (max-width: 1200px) {
     .navbar {
         height: 6vh;
@@ -333,7 +332,6 @@ h4 {
     }
 }
 
-/* Para tablets pequenos e celulares (de 768px a 1200px) */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -398,7 +396,6 @@ h4 {
     }
 }
 
-/* Para celulares grandes (de 576px a 768px) */
 @media (max-width: 576px) {
     #titulo1 {
         font-size: 18px;
@@ -460,7 +457,6 @@ h4 {
     }
 }
 
-/* Para celulares pequenos (menores que 400px) */
 @media (max-width: 400px) {
     #titulo1 {
         font-size: 16px;
@@ -503,3 +499,4 @@ h4 {
     }
 
 }
+
